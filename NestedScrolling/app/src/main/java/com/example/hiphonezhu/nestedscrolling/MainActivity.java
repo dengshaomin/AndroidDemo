@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         final StickyLayout stickyNavLayout = (StickyLayout) findViewById(R.id.stickyNavLayout);
 
         RecyclerView rv = (RecyclerView) findViewById(R.id.rv);

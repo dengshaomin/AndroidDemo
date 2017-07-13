@@ -1,53 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-    <com.example.hiphonezhu.nestedscrolling.StickyLayout
-        android:id="@+id/stickyNavLayout"
+
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/iv"
+        <com.example.hiphonezhu.nestedscrolling.StickyLayout
+            android:id="@+id/stickyNavLayout"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/bg" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tv_sticky"
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg"/>
+
+            <TextView
+                android:id="@+id/tv_sticky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Sticky View"
+                android:textColor="@android:color/white"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.example.hiphonezhu.nestedscrolling.StickyLayout>
+
+        <LinearLayout
+            android:id="@+id/v_always"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_green_dark"
-            android:gravity="center"
-            android:paddingBottom="10dp"
-            android:paddingTop="10dp"
-            android:text="Sticky View"
-            android:textColor="@android:color/white" />
+            android:fitsSystemWindows="true"
+            android:gravity="bottom"
+            android:visibility="invisible">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/rv"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </com.example.hiphonezhu.nestedscrolling.StickyLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Sticky View"
+                android:textColor="@android:color/white"/>
 
-    <LinearLayout
-        android:id="@+id/v_always"
-        android:layout_width="match_parent"
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <com.example.hiphonezhu.nestedscrolling.HistoryTagView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
-        android:fitsSystemWindows="true"
-        android:background="@android:color/holo_green_dark"
-        android:gravity="bottom">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingBottom="10dp"
-            android:paddingTop="10dp"
-            android:text="Sticky View"
-            android:textColor="@android:color/white" />
-    </LinearLayout>
-</FrameLayout>
+        android:layout_centerInParent="true"
+        android:paddingBottom="3dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="3dp"
+        android:text="王者"
+        android:textColor="#333333"
+        android:textSize="14sp"/>
+</RelativeLayout>
