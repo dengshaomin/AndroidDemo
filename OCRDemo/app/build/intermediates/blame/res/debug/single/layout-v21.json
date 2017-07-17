@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\dengshaomin\\Desktop\\aip-ocr-android-sdk-1.2.2\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\dengshaomin\\.android\\build-cache\\7c77793bea58a14deced59eb83158c7fe89ba375\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\dengshaomin\\Desktop\\aip-ocr-android-sdk-1.2.2\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\dengshaomin\\.android\\build-cache\\7c77793bea58a14deced59eb83158c7fe89ba375\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\dengshaomin\\Desktop\\aip-ocr-android-sdk-1.2.2\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\dengshaomin\\.android\\build-cache\\7c77793bea58a14deced59eb83158c7fe89ba375\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\dengshaomin\\Desktop\\aip-ocr-android-sdk-1.2.2\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\dengshaomin\\.android\\build-cache\\7c77793bea58a14deced59eb83158c7fe89ba375\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

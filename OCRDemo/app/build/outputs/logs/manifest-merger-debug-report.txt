@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:3:1-33:12
+	package
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:4:11-39
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:7:5-80
+MERGED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:8:22-64
+application
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:9:5-31:19
+MERGED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:20:5-31:19
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\dengshaomin\.android\build-cache\7c77793bea58a14deced59eb83158c7fe89ba375\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\dengshaomin\.android\build-cache\2eb9ab56a1acb284352d86c779f55bef54c16d52\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\dengshaomin\.android\build-cache\772acdc9a8be7227d024f8cd3311748fc78cb64c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\dengshaomin\.android\build-cache\d26a77b3b010395d16b3ec0abb4d8f9874e6e650\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\dengshaomin\.android\build-cache\3f878e02037f288d8bf319773883760d1894371f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\dengshaomin\.android\build-cache\a9efe6e3a02524638566462cc19e998196dd42a3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\dengshaomin\.android\build-cache\a3ea1aae394cccad26a87d6edb7fb5a7aed09bd6\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\dengshaomin\.android\build-cache\caa5a61a5aea6987efb16eec53911282037d2b50\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\dengshaomin\.android\build-cache\a28f43bffc4ed3dc1896ac67e2628b8ef88b1118\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:12:13-45
+	android:supportsRtl
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:13:13-39
+	android:vmSafeMode
+		ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:26:9-34
+	android:allowBackup
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:10:13-39
+	android:icon
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:11:13-47
+	android:theme
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:14:13-44
+activity#com.baidu.ocr.demo.MainActivity
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:15:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:17:17-68
+	android:name
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:19:17-76
+	android:name
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.baidu.ocr.demo.IDCardActivity
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:22:9-24:20
+	android:label
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:22:19-49
+activity#com.baidu.ocr.demo.BankCardActivity
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:25:9-27:20
+	android:label
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:26:13-50
+	android:name
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:25:19-51
+activity#com.baidu.ocr.demo.GeneralActivity
+ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:28:9-30:20
+	android:label
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml:28:19-50
+uses-sdk
+INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\dengshaomin\.android\build-cache\7c77793bea58a14deced59eb83158c7fe89ba375\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\dengshaomin\.android\build-cache\2eb9ab56a1acb284352d86c779f55bef54c16d52\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\dengshaomin\.android\build-cache\772acdc9a8be7227d024f8cd3311748fc78cb64c\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\dengshaomin\.android\build-cache\d26a77b3b010395d16b3ec0abb4d8f9874e6e650\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\dengshaomin\.android\build-cache\3f878e02037f288d8bf319773883760d1894371f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\dengshaomin\.android\build-cache\a9efe6e3a02524638566462cc19e998196dd42a3\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\dengshaomin\.android\build-cache\a3ea1aae394cccad26a87d6edb7fb5a7aed09bd6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\dengshaomin\.android\build-cache\caa5a61a5aea6987efb16eec53911282037d2b50\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\dengshaomin\.android\build-cache\a28f43bffc4ed3dc1896ac67e2628b8ef88b1118\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.1] C:\Users\dengshaomin\.android\build-cache\7c77793bea58a14deced59eb83158c7fe89ba375\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:12:22-62
+uses-feature#android.hardware.camera2.full
+ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:16:19-63
+uses-feature#android.hardware.camera
+ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:17:5-60
+	android:name
+		ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:17:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:18:5-70
+	android:name
+		ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:18:19-67
+activity#com.baidu.ocr.ui.camera.CameraActivity
+ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:27:9-30:80
+	android:configChanges
+		ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:29:13-59
+	android:theme
+		ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:30:13-77
+	android:name
+		ADDED from [OCRDemo:ocr_ui:unspecified] C:\Users\dengshaomin\Desktop\aip-ocr-android-sdk-1.2.2\OCRDemo\ocr_ui\build\intermediates\bundles\default\AndroidManifest.xml:28:13-66

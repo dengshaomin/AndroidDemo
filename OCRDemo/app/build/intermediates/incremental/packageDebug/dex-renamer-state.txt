@@ -1,0 +1,7 @@
+#Mon Jul 17 17:51:38 CST 2017
+base.0=C\:\\Users\\dengshaomin\\Desktop\\aip-ocr-android-sdk-1.2.2\\OCRDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_11b4647f7895670c800a2eda1636a70def473732
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\dengshaomin\\Desktop\\aip-ocr-android-sdk-1.2.2\\OCRDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8a2bc028e2808bf6fdca22363fad5eece3f80d3e\\classes.dex
+base.1=C\:\\Users\\dengshaomin\\Desktop\\aip-ocr-android-sdk-1.2.2\\OCRDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8a2bc028e2808bf6fdca22363fad5eece3f80d3e
+file.0=C\:\\Users\\dengshaomin\\Desktop\\aip-ocr-android-sdk-1.2.2\\OCRDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_11b4647f7895670c800a2eda1636a70def473732\\classes.dex

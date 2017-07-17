@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\dengshaomin\\Desktop\\aip-ocr-android-sdk-1.2.2\\OCRDemo\\ocr_ui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\dengshaomin\\.android\\build-cache\\7c77793bea58a14deced59eb83158c7fe89ba375\\output\\res\\values-port\\values-port.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]
