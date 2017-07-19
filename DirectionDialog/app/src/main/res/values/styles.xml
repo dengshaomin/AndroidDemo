@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Dialog.NoTitle.transparent" parent="Base.Theme.AppCompat.DialogWhenLarge">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowAnimationStyle">@style/AnimationPicker</item>-->
+    </style>
+
+    <style name="Dialog.NoTitle" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowAnimationStyle">@style/AnimationPicker</item>-->
+    </style>
+
+    <style name="AnimationPicker" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="AnimationLeft" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+
+    <style name="AnimationTop" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_top</item>
+    </style>
+
+    <style name="AnimationRight" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="AnimationBottom" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+</resources>
