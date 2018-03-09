@@ -38,7 +38,7 @@
 
       <com.coorchice.library.SuperTextView
         android:id="@+id/stv_2_1"
-        android:layout_width="@dimen/stv_normal_size"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:gravity="center"

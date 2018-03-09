@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo-android-aop.iml" filepath="$PROJECT_DIR$/demo-android-aop.iml" />
+      <module fileurl="file://C:\Users\dengshaomin\Desktop\AndroidDemo\demo-android-aop-master\demo-android-aop.iml" filepath="C:\Users\dengshaomin\Desktop\AndroidDemo\demo-android-aop-master\demo-android-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-android-aop-master.iml" filepath="$PROJECT_DIR$/demo-android-aop-master.iml" />
     </modules>
   </component>

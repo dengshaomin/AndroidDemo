@@ -7,9 +7,10 @@ import android.util.Log;
  */
 
 public class LogUtils {
+
     private static final boolean DEBUG = true;
 
-    public static void i(Class cls, String loginfo){
-        Log.i(cls.getSimpleName(), " 代码中埋点：" + loginfo);
+    public static void e(String loginfo) {
+        Log.e("code", loginfo);
     }
 }

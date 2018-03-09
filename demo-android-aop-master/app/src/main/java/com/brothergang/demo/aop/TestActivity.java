@@ -5,14 +5,16 @@ import android.os.Bundle;
 import android.util.Log;
 
 public class TestActivity extends AppCompatActivity {
+
     private static final String TAG = TestActivity.class.getSimpleName();
+
     public String tag = getClass().getName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
-        aopAnnatation();
+        debugLog(" === onCreate ===");
     }
 
     @Override
@@ -52,11 +54,11 @@ public class TestActivity extends AppCompatActivity {
     }
 
     private void debugLog(String loginfo) {
-        LogUtils.i(this.getClass(), loginfo);
+        LogUtils.e(loginfo);
     }
 
     @MyAnnatation(value = "ourself")
     private void aopAnnatation() {
-        LogUtils.i(this.getClass(), "11111111111");
+        LogUtils.e("11111111111");
     }
 }

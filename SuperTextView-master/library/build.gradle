@@ -15,16 +15,14 @@
  */
 
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
 
 group='com.github.chenBingX'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "25"
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 24
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
