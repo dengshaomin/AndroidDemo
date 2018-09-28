@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.code.animation.ViewAnimationActivity"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/translate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/meisi"
+        app:civ_border_color="#ffee00"
+        app:civ_border_width="2dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/translate_it"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/meisi"
+        app:civ_border_color="#ffee00"
+        app:civ_border_width="2dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/translate_share_it"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/meisi"
+        app:civ_border_color="#ffee00"
+        app:civ_border_width="2dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <FrameLayout
+            android:id="@+id/scale"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ronaldo"
+                app:civ_border_color="#ffee00"
+                app:civ_border_width="2dp"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/roat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/neymar"
+                app:civ_border_color="#ffee00"
+                app:civ_border_width="2dp"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/alpha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cluo"
+                app:civ_border_color="#ffee00"
+                app:civ_border_width="2dp"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/set"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/meisi"
+                app:civ_border_color="#ffee00"
+                app:civ_border_width="2dp"
+                />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

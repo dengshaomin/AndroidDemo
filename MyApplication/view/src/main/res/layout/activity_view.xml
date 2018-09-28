@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.code.view.move.ViewActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10px"
+        android:background="#ffff00"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            >
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:text="btn"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:text="btn1"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:text="btn2"
+            />
+
+        <com.code.view.move.MoveView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ff00ff"
+            />
+
+        <com.code.view.move.MineScrollView
+            android:id="@+id/parent1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ee00ee"
+            >
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:text="btn3"
+                />
+        </com.code.view.move.MineScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

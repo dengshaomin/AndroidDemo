@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.code.myapplication"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".MainActivity">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="com.code.action0" />
+                <action android:name="com.code.action1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:mimeType="video/mpeg"
+                    android:scheme="http"
+                    />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main3Activity"
+            android:process="com.code.myapplication.remote"
+            />
+
+        <service
+            android:name=".messager.MessagerService"
+            android:process=":remote"
+            />
+        <service
+            android:name=".BinderPoolService"
+            android:process=":binderpool"
+            />
+
+        <activity android:name=".BinderPoolActivity" />
+        <activity android:name=".CoordinatorActivity" />
+        <activity
+            android:name=".StatuBarActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout"
+            android:theme="@style/TranslucentTheme"
+            >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".LayoutActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|layoutDirection|screenLayout"
+            android:theme="@style/TranslucentTheme"
+            >
+             <!--<intent-filter>-->
+                 <!--<action android:name="android.intent.action.MAIN" />-->
+                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
+             <!--</intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>

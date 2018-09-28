@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.code.animation.AnimationActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/dolphin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/dolphin"
+        android:scaleType="centerInside"
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#ffffff"
+        android:layoutAnimation="@anim/layout_animation"
+        />
+
+    <ImageView
+        android:id="@+id/attribute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/dolphin"
+        android:scaleType="centerInside"
+        />
+</LinearLayout>

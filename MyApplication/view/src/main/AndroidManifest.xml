@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.code.view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application>
+        <activity android:name=".move.ViewActivity" />
+        <activity android:name=".touch.TouchActivity" />
+        <activity android:name=".custom.CustomActivity" />
+        <activity android:name=".remoteview.NotificationActivity" />
+        <activity android:name=".drawable.DrawableActivity" />
+        <activity android:name=".windowsmanager.WindowsManagerActivity"></activity>
+        <activity android:name=".gesture.GestureActivity"></activity>
+
+        <receiver android:name=".StaticBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.code.static.broadcast" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".surface.SurfaceActivity"
+            android:screenOrientation="landscape"
+            android:hardwareAccelerated="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

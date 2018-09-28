@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.code.view.drawable.DrawableActivity"
+    >
+
+    <ImageView
+        android:id="@+id/bitmap"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/bitmap_drawable"
+        android:text="BitmapDrawable"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/layer_drawable"
+        android:padding="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/level"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/level_drawable"
+        android:text="BitmapDrawable"
+        />
+
+    <ImageView
+        android:id="@+id/transition"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/transition_drawable"
+        android:text="BitmapDrawable"
+        />
+</LinearLayout>
